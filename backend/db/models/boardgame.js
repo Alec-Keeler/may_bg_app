@@ -11,6 +11,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      Boardgame.hasMany(models.Review, {foreignKey: 'gameId'})
     }
   }
   Boardgame.init({
