@@ -54,8 +54,8 @@ Create and return a new review for a boardgame specified by id.
 
 * Require Authentication: true
 * Request
-  * Method: ?
-  * URL: ?
+  * Method: POST
+  * URL: /boardgames/:id/reviews
   * Headers:
     * Content-Type: application/json
   * Body:
